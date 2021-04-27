@@ -1,5 +1,8 @@
-@extends('layouts')
+@extends('layouts.app')
 
 @section('content')
-    @includes('partials.navbar')
+    @include('partials.navbar')
+    @include('partials.home')
+    @include('partials.about')
+
 @endsection
